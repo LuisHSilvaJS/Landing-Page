@@ -42,9 +42,36 @@ body {
 }
 
 /* CSS CONTEUDO - SOBRE MIM */
+.conteudo-principal-eu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito-eu {
+    font-family: 'Oswald', sans-serif;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
 /* CSS CONTEUDO - REDES SOCIAIS */
+.conteudo-principal-sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.conteudo-principal-escrito-sociais {
+    font-family: 'Oswald', sans-serif;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 /* CSS  CONTEUDO CENTRAL DA PÁGINA */
 .conteudo {
     border-top: 0.5px solid wheat;
@@ -64,6 +91,8 @@ body {
     justify-content: space-around;
 } 
 .conteudo-principal-escrito-portfolio {
+    font-family: 'Oswald', sans-serif;
+    color: wheat;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -90,11 +119,6 @@ body {
 
 .conteudo-principal-escrito-botao:hover{
     background-color: rgb(207, 156, 62);
-}
-
-.conteudo-principal-escrito-portfolio {
-    font-family: 'Oswald', sans-serif;
-    color: wheat;
 }
 
 .conteudo-secundario {
