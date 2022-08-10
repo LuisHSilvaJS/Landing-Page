@@ -14,7 +14,7 @@ body {
     background-color: rgb(22, 21, 21);
 }
 
-/* css padrão */
+/* CSS CABEÇALHO */
 .cabecalho { /* flexbox */
     display: flex;
     flex-direction: row;
@@ -41,37 +41,34 @@ body {
     font-size: 16px;
 }
 
+/* CSS  CONTEUDO CENTRAL DA PÁGINA */
 .conteudo {
     border-top: 0.5px solid wheat;
     margin-bottom: 50px;
     padding-top: 40px;
 }
 
-.conteudo-principal-imagem {
+.conteudo-principal-imagem-portfolio {
     height: 285px;
     /*box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);*/
 }
-.conteudo-principal {
+
+.conteudo-principal-portfolio {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 } 
-.conteudo-principal-escrito {
+.conteudo-principal-escrito-portfolio {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.conteudo-principal-escrito-titulo {
+.conteudo-principal-escrito-titulo-portfolio {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     font-size: 75px;
-    color: wheat;
-}
-
-.conteudo-principal-escrito-portfolio {
-    font-family: 'Oswald', sans-serif;
     color: wheat;
 }
 
@@ -89,6 +86,11 @@ body {
 
 .conteudo-principal-escrito-botao:hover{
     background-color: rgb(207, 156, 62);
+}
+
+.conteudo-principal-escrito-portfolio {
+    font-family: 'Oswald', sans-serif;
+    color: wheat;
 }
 
 .conteudo-secundario {
