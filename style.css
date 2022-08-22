@@ -55,7 +55,14 @@ body {
     color: wheat;
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 30px;
+}
+
+.sobre-mim{
+    display: flex;
+    color: wheat;
+    text-align: center;
 }
 
 
